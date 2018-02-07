@@ -151,7 +151,6 @@ model = cnn(size=image_size, n_layers=N_LAYERS)
 
 
 ## MODEL TRAINING ##
-
 # Training Hyperparamters
 EPOCHS = 150
 BATCH_SIZE = 200
