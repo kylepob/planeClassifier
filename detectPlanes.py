@@ -37,9 +37,9 @@ train_indices = shuffled_indices[0:split_index]
 test_indices = shuffled_indices[split_index:]
 
 # Split the images and the labels
-x_train = images[train_indices, :, :]
+x_train = images[train_indices, :, :, :]
 y_train = labels[train_indices]
-x_test = images[test_indices, :, :]
+x_test = images[test_indices, :, :, :]
 y_test = labels[test_indices]
 
 ## DATA VISUALIZATION ##
