@@ -6,7 +6,7 @@ import os.path as path
 from scipy import misc
 
 # IMAGE_PATH should be the path to the planesnet folder
-IMAGE_PATH = 'data\planesnet'
+IMAGE_PATH = path.join('data', 'planesnet')
 file_paths = glob.glob(path.join(IMAGE_PATH, '*.png'))
 
 # Load the images
