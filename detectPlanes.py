@@ -10,7 +10,7 @@ IMAGE_PATH = path.join('data', 'planesnet')
 file_paths = glob.glob(path.join(IMAGE_PATH, '*.png'))
 
 # Load the images
-images = [misc.imread(path) for path in file_paths]
+images = [misc.imread(i_path) for i_path in file_paths]
 images = np.asarray(images)
 
 # Get image size
